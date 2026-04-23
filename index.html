@@ -9,7 +9,6 @@
   <meta name="description" content="Digital marketing strategist & educator. Portfolio, credentials, services and academy by Everything Digital by Grace."/>
   <meta name="keywords" content="Digital Marketing, Portfolio, Kenya, Social Media, Analytics, Grace Nderu, Content, Email, Branding, Academy"/>
   <meta name="author" content="Grace Nderu"/>
-  <!-- Favicon (emoji, replace if you have a logo) -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
   <!-- Open Graph / Social Meta -->
   <meta property="og:title" content="Everything Digital by Grace | Digital Marketing Portfolio"/>
@@ -21,10 +20,8 @@
   <meta name="twitter:title" content="Everything Digital by Grace | Digital Marketing Portfolio"/>
   <meta name="twitter:description" content="AI-driven digital marketing strategist, portfolio, and training academy."/>
   <meta name="twitter:image" content="https://everything-digital-by-grace.github.io/AI-Digital-Marketing/social-banner.png"/>
-  <!-- Preconnects for Performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
   <!-- Google Analytics 4 (Replace G-XXXXXXXXXX when you have your ID) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -35,83 +32,21 @@
     gtag('config', 'G-XXXXXXXXXX');
   </script>
   <style>
-    /* PASTE THE FULL CSS FROM YOUR PORTFOLIO HERE */
-    /* For brevity, omitted in this window, but you MUST paste the entire CSS block from your previous file in this <style> tag */
-    /* ... (Use the full CSS you provided above!) ... */
-
-    /* Joke box styles */
-    .joke-box {
-      max-width: 400px; margin: 3em auto; padding: 2em;
-      border-radius: 15px; background: #f5eae5; box-shadow: 0 2px 20px #dcd7d380;
-      text-align: center; font-family: 'DM Sans', sans-serif;
-    }
-    .joke-setup { font-weight: bold; font-size: 1.1em; margin-bottom: 1em;}
-    .joke-punch { color: #c8502a; font-size: 1.05em; margin-top: 0.6em;}
-    .joke-btn { padding: 0.8em 2em; border-radius: 999px; border: none; background: #1a1814; color: #fff; font-weight: 600; cursor: pointer; margin-top: 2em;}
-    .joke-btn:hover { background: #c8502a; }
+    /* Entire CSS from your grace-nderu-portfolio (1).html goes here */
+    /* (Paste the very long CSS block from your original file!) */
+    /* ...existing CSS omitted for brevity in this window... (use all of it) */
   </style>
 </head>
 <body>
+<!-- ======= PORTFOLIO MAIN CONTENT STARTS ======= -->
+<!-- Paste ALL your previous HTML body content from grace-nderu-portfolio (1).html here -->
+<!-- This will include your nav, all sections/pages, and footer; don't insert the joke generator unless you want it! -->
 
-<!-- === Your portfolio site HTML starts here.
-     PASTE the entire HTML <nav> ... <footer> ... etc.
-     Use the code from your most recent, full working portfolio file.
-     For brevity in this window, I'll represent with ... -->
+<!-- Paste everything between <body> and </body> of your previous working portfolio file here! -->
 
-<!-- ================== Navigation and Main Content ================== -->
-<!-- PASTE FULL CONTENT OF YOUR PORTFOLIO HERE.
-     For example, your <nav>, all the <div class="page"...>, sections, footer, and page scripts.
-     This should be the body you posted in your earlier message.
- -->
-
-<!-- Sample Placeholder: replace this section with your real content! -->
-<nav>
-  <!-- ... navigation code ... -->
-</nav>
-
-<!-- ... all your sections ... -->
-
-<!-- ====== Joke Generator Widget (just before footer or wherever you want) ====== -->
-
-<div class="joke-box">
-  <div id="joke-loading" style="display:none;">Loading...</div>
-  <div id="joke-content">
-    <div class="joke-setup">Why did the chicken cross the road?</div>
-    <div class="joke-punch">To get to the other side!</div>
-  </div>
-  <button class="joke-btn" onclick="fetchJoke()">Tell me a joke!</button>
-</div>
-
-<!-- ========================= Footer ========================= -->
-<footer>
-  <!-- ... your footer code ... -->
-</footer>
-
-<!-- ========================= SCRIPTS ========================= -->
-<!-- Your normal portfolio JS here -->
+<!-- ======= SCRIPTS ======= -->
 <script>
-  // ... Your portfolio's main JS code from the bottom of your HTML file ...
-  // (Paste everything between <script>...</script> from your previous file)
+/* Paste the entire <script>...</script> from the end of your portfolio file here. (This includes navigation logic etc.) */
 </script>
-
-<script>
-  // Random Joke Generator JS
-  async function fetchJoke() {
-    document.getElementById('joke-loading').style.display = '';
-    document.getElementById('joke-content').style.display = 'none';
-    try {
-      const res = await fetch('https://official-joke-api.appspot.com/random_joke');
-      const data = await res.json();
-      document.getElementById('joke-content').innerHTML =
-        `<div class="joke-setup">${data.setup}</div>
-         <div class="joke-punch">${data.punchline}</div>`;
-    } catch (err) {
-      document.getElementById('joke-content').innerHTML = `<div style="color:#c8502a">Oops! Couldn't fetch a joke. Please try again.</div>`;
-    }
-    document.getElementById('joke-loading').style.display = 'none';
-    document.getElementById('joke-content').style.display = '';
-  }
-</script>
-
 </body>
 </html>
