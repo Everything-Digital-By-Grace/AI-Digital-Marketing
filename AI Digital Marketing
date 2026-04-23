@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Everything Digital by Grace | Digital Marketing Portfolio & Academy</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="Digital marketing strategist & educator. Portfolio, credentials, services and academy by Everything Digital by Grace."/>
+  <meta name="keywords" content="Digital Marketing, Portfolio, Kenya, Social Media, Analytics, Grace Nderu, Content, Email, Branding, Academy"/>
+  <meta name="author" content="Grace Nderu"/>
+  <!-- Favicon (emoji, replace if you have a logo) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Everything Digital by Grace | Digital Marketing Portfolio"/>
+  <meta property="og:description" content="AI-driven digital marketing strategist, portfolio, and training academy."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://everything-digital-by-grace.github.io/AI-Digital-Marketing/"/>
+  <meta property="og:image" content="https://everything-digital-by-grace.github.io/AI-Digital-Marketing/social-banner.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Everything Digital by Grace | Digital Marketing Portfolio"/>
+  <meta name="twitter:description" content="AI-driven digital marketing strategist, portfolio, and training academy."/>
+  <meta name="twitter:image" content="https://everything-digital-by-grace.github.io/AI-Digital-Marketing/social-banner.png"/>
+  <!-- Preconnects for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Google Analytics 4 (Replace G-XXXXXXXXXX when you have your ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+   
+
